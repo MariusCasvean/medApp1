@@ -298,11 +298,6 @@
       <span>{{ btn.ADD_PATIENT }}</span>
     </v-btn>
 
-    <!-- <v-btn @click="initPatientVaccineAppointment" class="mt-6 ml-10" color="#42A5F5" dark>
-      <v-icon left>mdi-calendar-multiple-check</v-icon>
-      <span>{{ btn.SCHEDULE_VACCINE }} (WIP)</span>
-    </v-btn> -->
-
     <v-dialog v-model="dialogVaccineAppointment" persistent max-width="600">
       <v-card>
         <v-card-title class="headline"
@@ -321,7 +316,6 @@
                 <v-icon left>mdi-calendar</v-icon>
                 Date*
               </v-chip>
-              <!-- <v-date-picker day-format="dd-mm-yyyy" month-format="dd-mm-yyyy" v-model="dateForVaccine" first-day-of-week="1" header-color="#42a5f5"></v-date-picker> -->
               <v-date-picker
                 v-model="dateForVaccine"
                 first-day-of-week="1"
