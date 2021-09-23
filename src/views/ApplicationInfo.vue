@@ -7,7 +7,7 @@
       text-color="white"
     >
       <v-icon left>mdi-information</v-icon>
-      About this application
+      About this application - MedApp
     </v-chip>
     - The purpose for this application was to have an overview for the current
     situation regarding our patients health status <br />
